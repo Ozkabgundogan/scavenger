@@ -1,0 +1,12 @@
+syntax = "proto3";
+package mehdisbys.scavenge.scavenge;
+
+import "gogoproto/gogo.proto";
+
+option go_package = "github.com/mehdisbys/scavenge/x/scavenge/types";
+
+// Params defines the parameters for the module.
+message Params {
+  option (gogoproto.goproto_stringer) = false;
+  
+}
